@@ -2,26 +2,8 @@
   "extends": [
     "@rocketseat/eslint-config/react"
   ],
-  "plugins": [
-    "import-helpers"
-  ],
   "rules": {
-    "import-helpers/order-imports": [
-      "warn",
-      {
-        "newlinesBetween": "never",
-        "groups": [
-          "/^react/",
-          "module",
-          "/^@/",
-          [
-            "parent",
-            "sibling",
-            "index"
-          ]
-        ],
-        "alphabetize": { "order": "asc", "ignoreCase": true }
-      }
-    ]
+    "camelcase": "off"
   }
+
 }
